@@ -1,0 +1,253 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: " Mortserrat", sans-serif;
+}
+
+li {
+    display: inline-block;
+}
+
+nav {
+    display: inline-block;
+}
+
+header {
+    margin: 0px 0px 144px 0px;
+    background-color: #f8f9fa;
+    padding: 30px 0 20px 0;
+    border-color: 2px solid #f0f0f0;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.nome {
+
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.n1 {
+    color: #0e3e96;
+}
+
+.n2 {
+    color: #2673bb;
+}
+
+a {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    margin: 0 20px 0 0;
+    cursor: pointer;
+    color: #1c7cbd;
+    transition: opacity 0.3s;
+    text-decoration: none;
+}
+
+a:hover {
+    opacity: 0.8;
+
+}
+
+.botao-login {
+    width: 140px;
+    height: 44px;
+    border-radius: 200px;
+    cursor: pointer;
+    background: #1460a7;
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(232, 237, 241);
+    transition: opacity 0.2s;
+}
+
+.botao-login:hover {
+    opacity: o.3;
+    background-color: rgb(53, 125, 233);
+}
+
+
+.logo {
+    width: 40%;
+    max-width: 300px;
+    vertical-align: middle;
+    border-radius: 15px;
+    margin: 0 3% 0 0;
+}
+
+.texto {
+    width: 40%;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: left;
+    margin: 0 0 0 40px;
+}
+
+main {
+    text-align: center;
+}
+
+.botao-explore {
+    width: 150px;
+    height: 37px;
+    cursor: pointer;
+    background-color: rgb(100, 146, 233);
+    border: none;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: 400;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
+    transition: background-color;
+}
+
+.botao-explore:hover {
+    background-color: rgb(32, 75, 116)3;
+
+}
+
+.titulo {
+
+    font-size: 30px;
+    font-weight: 800;
+    color: rgb(8, 33, 179);
+}
+
+.subtitulo {
+    color: rgb(115, 180, 218);
+    line-height: 1.5;
+
+}
+
+.paragrafo {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgb(8, 8, 8);
+    text-align: justify;
+    margin: 20px 0 40px 0;
+    max-width: 500px;
+}
+
+footer {
+    text-align: center;
+    background-color: rgb(11, 54, 134);
+    padding: 60px 0 60px 0;
+    font-size: 14px;
+    margin-top: 100px;
+    color: #f0f0f0
+}
+
+.img-dog {
+    display: block;
+    width: 300px;
+    height: 250px;
+    object-fit: cover;
+    margin: 80px auto 0 auto;
+    border-radius: 15px;
+
+}
+
+.servicos {
+    padding: 10px 0 100px 0;
+
+}
+
+.h2-servicos {
+    font-weight: 500;
+}
+
+.lista-servicos {
+    width: 200px;
+
+    display: block;
+    text-decoration: none;
+    color: rgba(8, 8, 12, 0.801);
+    border: 2px solid;
+    margin: 0 60px;
+    padding: 20px 0;
+    border-radius: 15px;
+    transition: box-shadow 0.2s, transform 0.2s;
+}
+
+.lista-servicos:hover {
+    box-shadow: 0 5px 5px rgba(148, 144, 144, 0.582);
+    transform: translateY(-2px);
+}
+
+.img-card {
+    width: 70%;
+}
+
+.agenda {
+    width: 140px;
+    height: 44px;
+    border-radius: 200px;
+    cursor: pointer;
+    background: #1460a7;
+    border: none;
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(232, 237, 241);
+    transition: scale 0.3s;
+}
+
+.agenda:hover {
+    opacity: o.3;
+    background-color: rgb(148, 179, 226);
+    scale: 1.02;
+}
+
+@media(max-width:768px) {
+    header {
+        margin: 0px 0px 30px 0;
+        text-align: center;
+        width: 100%;
+    }
+
+    .nome {
+        display: none;
+    }
+
+    a {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 28px;
+        margin: 0 5px 0 0;
+
+    }
+
+    .botao-login {
+        width: 90px;
+        height: 32px;
+        border-radius: 15px;
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    .logo {
+        width: 50%;
+        display: block;
+        margin: 0 auto 50px auto;
+    }
+
+    .texto {
+        width: 80%;
+        text-align: center;
+    }
+
+    .titulo {
+        font-size: 30px;
+    }
+
+    .h2-servicos {
+        font-weight: 400;
+        font-size: 22px;
+    }
+}
