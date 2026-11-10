@@ -13,7 +13,7 @@ imagemApi()
 
 function whatsapp(){
 
-   const texto = "olá, vim pelo site do PetLove e gostaria de agendar um horário para o meu pet "
+   const texto = "Olá, vim pelo site do PetLove e gostaria de agendar um horário para o meu pet "
    const textoFormatado = encodeURIComponent(texto)
   const url =  "https://wa.me/5544997074627?text=I" + textoFormatado;
   open(url, 'blank');
